@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-
+console.log("runnig pipeline.........")
 // medicine
 const getmedicineAmazonDescription = require("./Categories/MedicineWebsites/AmazonModule.js");
 const getmedicinepharmaDescription = require("./Categories/MedicineWebsites/PharmaeasyModule.js");
